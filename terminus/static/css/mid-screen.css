@@ -1,0 +1,51 @@
+.building {
+    width: 1366px;
+    height: 519px;
+    bottom: 1%;
+    margin-left: -683px;
+}
+.building .line-base,
+.building .line-base1,
+.building .line-base2 {
+    width: 0;
+    height: 312px;
+    position: absolute;
+}
+.building .line-base {
+    background: url(../img/line-base.png) no-repeat left;
+    left: 103px;
+    top: 162px;
+    z-index: 96;
+    background-size: 1247px 324px;
+}
+.building .line-base1 {
+    background: url(../img/line-base1.png) no-repeat right;
+    right: 16px;
+    top: 162px;
+    z-index: 97;
+    background-size: 1247px 324px;
+}
+.building .line-base2 {
+    background: url(../img/line-base2.png) no-repeat left;
+    background-size: 1247px 324px;
+    left: 103px;
+    top: 162px;
+    z-index: 98;
+}
+@keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 1247px;
+    }
+}
+.line-base {
+    animation: light-in 1s ease-out 8s forwards;
+}
+.line-base1 {
+    animation: light-in 1s ease-in 9s forwards
+}
+.line-base2 {
+    animation: light-in 1s ease-in 10s forwards
+}

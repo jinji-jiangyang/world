@@ -1,0 +1,22 @@
+.building {
+    width: 1413px;
+    height: 537px;
+    margin-left: -701.5px;
+}
+@keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 1290px;
+    }
+}
+.line-base {
+    animation: light-in 1s ease-out 8s forwards;
+}
+.line-base1 {
+    animation: light-in 1s ease-in 9.5s forwards
+}
+.line-base2 {
+    animation: light-in 1s ease-in 11s forwards
+}

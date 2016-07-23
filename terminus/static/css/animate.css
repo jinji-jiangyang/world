@@ -1,0 +1,1175 @@
+/* set animate */
+@-webkit-keyframes down1 {
+  from {
+    top: -72px;
+  }
+  to {
+    top: 40px;
+  }
+}
+@keyframes down1 {
+  from {
+    top: -72px;
+  }
+  to {
+    top: 40px;
+  }
+}
+@-webkit-keyframes down2 {
+  from {
+    top: -72px;
+  }
+  to {
+    top: 78px;
+  }
+}
+@keyframes down2 {
+  from {
+    top: -72px;
+  }
+  to {
+    top: 78px;
+  }
+}
+@-webkit-keyframes left-in {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 19%;
+  }
+}
+@keyframes left-in {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 19%;
+  }
+}
+@-webkit-keyframes left-in2 {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+  to {
+    left: 10%;
+    opacity: 1;
+  }
+}
+@keyframes left-in2 {
+  from {
+    left: -200px;
+    opacity: 0;
+  }
+  to {
+    left: 10%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes left-out {
+  0% {
+    opacity: 0;
+    left: 90%;
+  }
+  50% {
+    opacity: 1;
+    left: 90%;
+  }
+  100% {
+    opacity: 1;
+    left: 130%;
+  }
+}
+@keyframes left-out {
+  0% {
+    opacity: 0;
+    left: 90%;
+  }
+  50% {
+    opacity: 1;
+    left: 90%;
+  }
+  100% {
+    opacity: 1;
+    left: 130%;
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-in1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.9;
+  }
+}
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 0.91;
+  }
+}
+@-webkit-keyframes slideInUp1 {
+  from {
+    -webkit-transform: translate3d(0, 420%, 0);
+    transform: translate3d(0, 420%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 230%, 0);
+    transform: translate3d(0, 230%, 0);
+    opacity: 0.91;
+  }
+}
+@keyframes slideInUp1 {
+  from {
+    -webkit-transform: translate3d(0, 420%, 0);
+    transform: translate3d(0, 420%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 230%, 0);
+    transform: translate3d(0, 230%, 0);
+    opacity: 0.91;
+  }
+}
+@-webkit-keyframes slideInUp2 {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes slideInUp2 {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    opacity: 1;
+  }
+}
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dianti01 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.6;
+  }
+  70% {
+    bottom: 20%;
+    opacity: 0.9;
+  }
+  90% {
+    bottom: 30%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@keyframes dianti01 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.6;
+  }
+  70% {
+    bottom: 20%;
+    opacity: 0.9;
+  }
+  90% {
+    bottom: 30%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dianti02 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.6;
+  }
+  50% {
+    bottom: 15%;
+    opacity: 0.8;
+  }
+  70% {
+    bottom: 20%;
+    opacity: 0.9;
+  }
+  90% {
+    bottom: 25%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dianti03 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.6;
+  }
+  70% {
+    bottom: 20%;
+    opacity: 0.9;
+  }
+  90% {
+    bottom: 25%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@keyframes dianti03 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.6;
+  }
+  70% {
+    bottom: 20%;
+    opacity: 0.9;
+  }
+  90% {
+    bottom: 25%;
+    opacity: 1;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes dianti04 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.8;
+  }
+  50% {
+    bottom: 15%;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@keyframes dianti04 {
+  0% {
+    bottom: -10%;
+    opacity: 0.4;
+  }
+  20% {
+    bottom: 0;
+    opacity: 0.8;
+  }
+  50% {
+    bottom: 15%;
+    opacity: 0.8;
+  }
+  100% {
+    bottom: 30%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes disuo {
+  0% {
+    background: url(../img/disuo.png) no-repeat bottom / 100%;
+  }
+  30% {
+    opacity: 0.5;
+    background: url(../img/disuo.png) no-repeat bottom / 100%;
+  }
+  50% {
+    opacity: 0.5;
+    background: url(../img/disuo1.png) no-repeat bottom / 100%;
+  }
+  100% {
+    opacity: 1;
+    background: url(../img/disuo1.png) no-repeat bottom / 100%;
+  }
+}
+@keyframes disuo {
+  0% {
+    background: url(../img/disuo.png) no-repeat bottom / 100%;
+  }
+  30% {
+    opacity: 0.5;
+    background: url(../img/disuo.png) no-repeat bottom / 100%;
+  }
+  50% {
+    opacity: 0.5;
+    background: url(../img/disuo1.png) no-repeat bottom / 100%;
+  }
+  100% {
+    opacity: 1;
+    background: url(../img/disuo1.png) no-repeat bottom / 100%;
+  }
+}
+@-webkit-keyframes light-turn {
+  from {
+    background: transparent bottom / 100%;
+    opacity: 0;
+  }
+  to {
+    background: url(../img/page3-light.png) no-repeat bottom / 100%;
+    opacity: 1;
+  }
+}
+@keyframes light-turn {
+  from {
+    background: transparent bottom / 100%;
+    opacity: 0;
+  }
+  to {
+    background: url(../img/page3-light.png) no-repeat bottom / 100%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bounceInUp {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes bounceInUp {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes rotate-left {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: right;
+  }
+  40% {
+    opacity: 1;
+    transform: rotate(35deg);
+    transform-origin: right;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: right;
+  }
+}
+@keyframes rotate-left {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: right;
+  }
+  40% {
+    opacity: 1;
+    transform: rotate(35deg);
+    transform-origin: right;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: right;
+  }
+}
+@-webkit-keyframes rotate-right {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+  70% {
+    opacity: 1;
+    transform: rotate(-35deg);
+    transform-origin: left;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+}
+@keyframes rotate-right {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+  70% {
+    opacity: 1;
+    transform: rotate(-35deg);
+    transform-origin: left;
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg);
+    transform-origin: left;
+  }
+}
+@-webkit-keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  70% {
+    opacity: 0.3;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-in-out1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-in-out1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+/* set animate */
+/* page1 use animate */
+.page-title1 {
+  -webkit-animation: down1 1s ease;
+  -o-animation: down1 1s ease;
+  animation: down1 1s ease;
+}
+.page-title2 {
+  -webkit-animation: down2 1s ease-out;
+  -o-animation: down2 1s ease-out;
+  animation: down2 1s ease-out;
+}
+.left-in {
+  -webkit-animation: left-in 0.5s ease 0.5s forwards;
+  -o-animation: left-in 0.5s ease 0.5s forwards;
+  animation: left-in 0.5s ease 0.5s forwards;
+}
+.building,
+.building-shadow,
+.page1-floors {
+  -webkit-animation: fade-in 2s ease 1.5s forwards;
+  -o-animation: fade-in 2s ease 1.5s forwards;
+  animation: fade-in 2s ease 1.5s forwards;
+}
+.tower {
+  -webkit-animation: fade-in 1s ease 3.2s forwards;
+  -o-animation: fade-in 1s ease 3.2s forwards;
+  animation: fade-in 1s ease 3.2s forwards;
+}
+.key-floor {
+  -webkit-animation: fade-in 1s ease 3.8s forwards;
+  -o-animation: fade-in 1s ease 3.8s forwards;
+  animation: fade-in 1s ease 3.8s forwards;
+}
+.juxing {
+  -webkit-animation: fade-in 1s ease 4.3s forwards;
+  -o-animation: fade-in 1s ease 4.3s forwards;
+  animation: fade-in 1s ease 4.3s forwards;
+}
+.huarun {
+  -webkit-animation: fade-in 1s ease 4.8s forwards;
+  -o-animation: fade-in 1s ease 4.8s forwards;
+  animation: fade-in 1s ease 4.8s forwards;
+}
+.huarun-light {
+  -webkit-animation: fade-in 1s ease 5.5s forwards;
+  -o-animation: fade-in 1s ease 5.5s forwards;
+  animation: fade-in 1s ease 5.5s forwards;
+}
+.soho {
+  -webkit-animation: fade-in 1s ease 5.5s forwards;
+  -o-animation: fade-in 1s ease 5.5s forwards;
+  animation: fade-in 1s ease 5.5s forwards;
+}
+.dakucha {
+  -webkit-animation: fade-in 1s ease 6s forwards;
+  -o-animation: fade-in 1s ease 6s forwards;
+  animation: fade-in 1s ease 6s forwards;
+}
+.bridge-line {
+  -webkit-animation: fade-in 1s ease 7s forwards;
+  -o-animation: fade-in 1s ease 7s forwards;
+  animation: fade-in 1s ease 7s forwards;
+}
+.floors-light,
+.key-light {
+  -webkit-animation: fade-in 3s ease 11.3s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 11.3s forwards infinite alternate;
+  animation: fade-in 3s ease 11.3s forwards infinite alternate;
+}
+.tower-light,
+.jinianta-light,
+.juxing-light,
+.huarun-light1,
+.soho-light,
+.dakucha-light {
+  -webkit-animation: fade-in 3s ease 12s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 12s forwards infinite alternate;
+  animation: fade-in 3s ease 12s forwards infinite alternate;
+}
+.tip-title .point {
+  -webkit-animation: fade-in 3s ease 13s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 13s forwards infinite alternate;
+  animation: fade-in 3s ease 13s forwards infinite alternate;
+}
+.point-btn5 .point {
+  -webkit-animation: fade-in 3s ease 13.4s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 13.4s forwards infinite alternate;
+  animation: fade-in 3s ease 13.4s forwards infinite alternate;
+}
+.point-btn1 .point {
+  -webkit-animation: fade-in 3s ease 13.8s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 13.8s forwards infinite alternate;
+  animation: fade-in 3s ease 13.8s forwards infinite alternate;
+}
+.point-btn2 .point {
+  -webkit-animation: fade-in 3s ease 14.2s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 14.2s forwards infinite alternate;
+  animation: fade-in 3s ease 14.2s forwards infinite alternate;
+}
+.point-btn3 .point {
+  -webkit-animation: fade-in 3s ease 14.6s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 14.6s forwards infinite alternate;
+  animation: fade-in 3s ease 14.6s forwards infinite alternate;
+}
+.point-btn4 .point {
+  -webkit-animation: fade-in 3s ease 15s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 15s forwards infinite alternate;
+  animation: fade-in 3s ease 15s forwards infinite alternate;
+}
+.point-btn1 .btn-text {
+  -webkit-animation: fade-in 3s ease 14.6s forwards;
+  -o-animation: fade-in 3s ease 14.6s forwards;
+  animation: fade-in 3s ease 14.6s forwards;
+}
+.point-btn4 .btn-text {
+  -webkit-animation: fade-in 3s ease 15s forwards;
+  -o-animation: fade-in 3s ease 15s forwards;
+  animation: fade-in 3s ease 15s forwards;
+}
+.point-btn5 .btn-text {
+  -webkit-animation: fade-in 3s ease 15.4s forwards;
+  -o-animation: fade-in 3s ease 15.4s forwards;
+  animation: fade-in 3s ease 15.4s forwards;
+}
+.point-btn3 .btn-text {
+  -webkit-animation: fade-in 3s ease 15.8s forwards;
+  -o-animation: fade-in 3s ease 15.8s forwards;
+  animation: fade-in 3s ease 15.8s forwards;
+}
+.point-btn2 .btn-text {
+  -webkit-animation: fade-in 3s ease 16.2s forwards;
+  -o-animation: fade-in 3s ease 16.2s forwards;
+  animation: fade-in 3s ease 16.2s forwards;
+}
+.up-window-go {
+  -webkit-animation: slideInUp 0.5s ease 0.1s forwards;
+  -o-animation: slideInUp 0.5s ease 0.1s forwards;
+  animation: slideInUp 0.5s ease 0.1s forwards;
+}
+.page2-up-window-go {
+  -webkit-animation: slideInUp1 0.5s ease 0.1s forwards;
+  -o-animation: slideInUp1 0.5s ease 0.1s forwards;
+  animation: slideInUp1 0.5s ease 0.1s forwards;
+}
+/* page1 use animate end */
+/* page2 use */
+.section02.run .feiji {
+  -webkit-animation: slideInDown 5s ease 0.1s forwards;
+  -o-animation: slideInDown 5s ease 0.1s forwards;
+  animation: slideInDown 5s ease 0.1s forwards;
+}
+.section02.run .left-in2 {
+  -webkit-animation: left-in2 0.3s ease 0.01s forwards;
+  -o-animation: left-in2 0.3s ease 0.01s forwards;
+  animation: left-in2 0.3s ease 0.01s forwards;
+}
+.section02.run .page2-light1 {
+  -webkit-animation: fade-in 8s ease 2s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 2s forwards infinite alternate;
+  animation: fade-in 8s ease 2s forwards infinite alternate;
+}
+.section02.run .page2-light2 {
+  -webkit-animation: fade-in 8s ease 2.4s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 2.4s forwards infinite alternate;
+  animation: fade-in 8s ease 2.4s forwards infinite alternate;
+}
+.section02.run .page2-light3 {
+  -webkit-animation: fade-in 8s ease 2.8s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 2.8s forwards infinite alternate;
+  animation: fade-in 8s ease 2.8s forwards infinite alternate;
+}
+.section02.run .page2-light4 {
+  -webkit-animation: fade-in 8s ease 3.2s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 3.2s forwards infinite alternate;
+  animation: fade-in 8s ease 3.2s forwards infinite alternate;
+}
+.section02.run .page2-light5 {
+  -webkit-animation: fade-in 8s ease 3.6s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 3.6s forwards infinite alternate;
+  animation: fade-in 8s ease 3.6s forwards infinite alternate;
+}
+.section02.run .page2-light6 {
+  -webkit-animation: fade-in 8s ease 4s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 4s forwards infinite alternate;
+  animation: fade-in 8s ease 4s forwards infinite alternate;
+}
+.section02.run .page2-light7 {
+  -webkit-animation: fade-in 8s ease 4.4s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 4.4s forwards infinite alternate;
+  animation: fade-in 8s ease 4.4s forwards infinite alternate;
+}
+.section02.run .page2-light8 {
+  -webkit-animation: fade-in 8s ease 4.8s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 4.8s forwards infinite alternate;
+  animation: fade-in 8s ease 4.8s forwards infinite alternate;
+}
+.section02.run .page2-light9 {
+  -webkit-animation: fade-in 8s ease 5.2s forwards infinite alternate;
+  -o-animation: fade-in 8s ease 5.2s forwards infinite alternate;
+  animation: fade-in 8s ease 5.2s forwards infinite alternate;
+}
+.section02.run .page2-point-btn1 .point {
+  -webkit-animation: fade-in 6s ease 4s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 4s forwards infinite alternate;
+  animation: fade-in 6s ease 4s forwards infinite alternate;
+}
+.section02.run .page2-point-btn1 .btn-text {
+  -webkit-animation: fade-in 6s ease 5s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 5s forwards infinite alternate;
+  animation: fade-in 6s ease 5s forwards infinite alternate;
+}
+.section02.run .page2-point-btn2 .point {
+  -webkit-animation: fade-in 6s ease 4.3s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 4.3s forwards infinite alternate;
+  animation: fade-in 6s ease 4.3s forwards infinite alternate;
+}
+.section02.run .page2-point-btn2 .btn-text {
+  -webkit-animation: fade-in 6s ease 5.3s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 5.3s forwards infinite alternate;
+  animation: fade-in 6s ease 5.3s forwards infinite alternate;
+}
+.section02.run .page2-point-btn3 .point {
+  -webkit-animation: fade-in 6s ease 4.6s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 4.6s forwards infinite alternate;
+  animation: fade-in 6s ease 4.6s forwards infinite alternate;
+}
+.section02.run .page2-point-btn3 .btn-text {
+  -webkit-animation: fade-in 6s ease 5.6s forwards infinite alternate;
+  -o-animation: fade-in 6s ease 5.6s forwards infinite alternate;
+  animation: fade-in 6s ease 5.6s forwards infinite alternate;
+}
+.section02.run .dianti01 {
+  -webkit-animation: dianti01 8s ease 5.6s forwards infinite alternate;
+  -o-animation: dianti01 8s ease 5.6s forwards infinite alternate;
+  animation: dianti01 8s ease 5.6s forwards infinite alternate;
+}
+.section02.run .dianti02 {
+  -webkit-animation: dianti02 8s ease 8s forwards infinite alternate;
+  -o-animation: dianti02 8s ease 8s forwards infinite alternate;
+  animation: dianti02 8s ease 8s forwards infinite alternate;
+}
+.section02.run .dianti03 {
+  -webkit-animation: dianti03 8s ease 6.3s forwards infinite alternate;
+  -o-animation: dianti03 8s ease 6.3s forwards infinite alternate;
+  animation: dianti03 8s ease 6.3s forwards infinite alternate;
+}
+.section02.run .dianti04 {
+  -webkit-animation: dianti04 8s ease 5.6s forwards infinite alternate;
+  -o-animation: dianti04 8s ease 5.6s forwards infinite alternate;
+  animation: dianti04 8s ease 5.6s forwards infinite alternate;
+}
+/* page2 use end */
+/* page3 use */
+.section03.up .con {
+  -webkit-animation: bounceInUp 1s ease 0.1s forwards;
+  -o-animation: bounceInUp 1s ease 0.1s forwards;
+  animation: bounceInUp 1s ease 0.1s forwards;
+}
+.section03.up .page3-ceng1 {
+  -webkit-animation: bounceInUp 1s ease 0.1s forwards;
+  -o-animation: bounceInUp 1s ease 0.1s forwards;
+  animation: bounceInUp 1s ease 0.1s forwards;
+}
+.section03.up .page3-car {
+  -webkit-animation: left-out 4s ease-in 1s forwards;
+  -o-animation: left-out 4s ease-in 1s forwards;
+  animation: left-out 4s ease-in 1s forwards;
+}
+.section03.up .page3-zhaji {
+  -webkit-animation: fade-in 1s ease 1.5s forwards;
+  -o-animation: fade-in 1s ease 1.5s forwards;
+  animation: fade-in 1s ease 1.5s forwards;
+}
+.section03.up .page3-qiantai {
+  -webkit-animation: fade-in1 1s ease 1.8s forwards;
+  -o-animation: fade-in1 1s ease 1.8s forwards;
+  animation: fade-in1 1s ease 1.8s forwards;
+}
+/* .section03.up .page3-light {
+    animation: fade-in1 1s ease 2s forwards;
+} */
+.light-turn {
+  -webkit-animation: fade-in1 8s ease-out 4s forwards infinite alternate;
+  -o-animation: fade-in1 8s ease-out 4s forwards infinite alternate;
+  animation: fade-in1 8s ease-out 4s forwards infinite alternate;
+}
+.section03.up .page3-disuo {
+  -webkit-animation: disuo 1s step-start 3s forwards;
+  -o-animation: disuo 1s step-start 3s forwards;
+  animation: disuo 1s step-start 3s forwards;
+}
+.section03.up .page3-dianti {
+  -webkit-animation: fade-in1 1s ease 3.5s forwards;
+  -o-animation: fade-in1 1s ease 3.5s forwards;
+  animation: fade-in1 1s ease 3.5s forwards;
+}
+.section03.up .page3-tip {
+  -webkit-animation: left-in2 1s ease 0.1s forwards;
+  -o-animation: left-in2 1s ease 0.1s forwards;
+  animation: left-in2 1s ease 0.1s forwards;
+}
+.section03.up .page3-tip .point {
+  -webkit-animation: fade-in 3s ease 4s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 4s forwards infinite alternate;
+  animation: fade-in 3s ease 4s forwards infinite alternate;
+}
+.section03.up .page3-point-btn1 .point,
+.section03.up .page3-point-btn2 .point,
+.section03.up .page3-point-btn3 .point,
+.section03.up .page3-point-btn4 .point,
+.section03.up .page3-point-btn5 .point,
+.section03.up .page3-point-btn6 .point,
+.section03.up .page3-point-btn7 .point {
+  -webkit-animation: fade-in 3s ease 4.2s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 4.2s forwards infinite alternate;
+  animation: fade-in 3s ease 4.2s forwards infinite alternate;
+}
+.section03.up .page3-point-btn1 .btn-text,
+.section03.up .page3-point-btn2 .btn-text,
+.section03.up .page3-point-btn3 .btn-text,
+.section03.up .page3-point-btn4 .btn-text,
+.section03.up .page3-point-btn5 .btn-text,
+.section03.up .page3-point-btn6 .btn-text,
+.section03.up .page3-point-btn7 .btn-text {
+  -webkit-animation: fade-in 3s ease 4.5s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 4.5s forwards infinite alternate;
+  animation: fade-in 3s ease 4.5s forwards infinite alternate;
+}
+/* page3 use end */
+/* page4 use */
+.section04.go .page4-bg {
+  -webkit-animation: slideInUp 1s ease forwards;
+  -o-animation: slideInUp 1s ease forwards;
+  animation: slideInUp 1s ease forwards;
+}
+.section04.go .page4-light1 {
+  -webkit-animation: fade-in 3s ease 1s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 1s forwards infinite alternate;
+  animation: fade-in 3s ease 1s forwards infinite alternate;
+}
+.section04.go .page4-floor1 {
+  -webkit-animation: bounceInUp 1s ease 1.5s forwards;
+  -o-animation: bounceInUp 1s ease 1.5s forwards;
+  animation: bounceInUp 1s ease 1.5s forwards;
+}
+.section04.go .page4-light2 {
+  -webkit-animation: fade-in 3s ease 3s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 3s forwards infinite alternate;
+  animation: fade-in 3s ease 3s forwards infinite alternate;
+}
+.section04.go .page4-light3 {
+  -webkit-animation: fade-in 3s ease 3.5s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 3.5s forwards infinite alternate;
+  animation: fade-in 3s ease 3.5s forwards infinite alternate;
+}
+.section04.go .page4-light4 {
+  -webkit-animation: fade-in 3s ease 4s forwards;
+  -o-animation: fade-in 3s ease 4s forwards;
+  animation: fade-in 3s ease 4s forwards;
+}
+.section04.go .page4-poor {
+  -webkit-animation: fade-in 3s ease 5s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 5s forwards infinite alternate;
+  animation: fade-in 3s ease 5s forwards infinite alternate;
+}
+.section04.go .page4-door {
+  -webkit-animation: bounceInUp 1s ease 4s forwards;
+  -o-animation: bounceInUp 1s ease 4s forwards;
+  animation: bounceInUp 1s ease 4s forwards;
+}
+.section04.go .page4-door1 {
+  -webkit-animation: fade-in 1s ease 5s forwards;
+  -o-animation: fade-in 1s ease 5s forwards;
+  animation: fade-in 1s ease 5s forwards;
+}
+.section04.go .page4-light5 {
+  -webkit-animation: fade-in 3s ease 7.5s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 7.5s forwards infinite alternate;
+  animation: fade-in 3s ease 7.5s forwards infinite alternate;
+}
+.section04.go .page4-bang1 {
+  -webkit-animation: rotate-left 10s ease 8s forwards infinite alternate;
+  -o-animation: rotate-left 10s ease 8s forwards infinite alternate;
+  animation: rotate-left 10s ease 8s forwards infinite alternate;
+}
+.section04.go .page4-bang1-copy {
+  -webkit-animation: fade-in 1.1s ease 7s backwards alternate;
+  -o-animation: fade-in 1.1s ease 7s backwards alternate;
+  animation: fade-in 1.1s ease 7s backwards alternate;
+}
+.section04.go .page4-bang2 {
+  -webkit-animation: rotate-right 10s ease 8s forwards infinite alternate;
+  -o-animation: rotate-right 10s ease 8s forwards infinite alternate;
+  animation: rotate-right 10s ease 8s forwards infinite alternate;
+}
+.section04.go .page4-bang2-copy {
+  -webkit-animation: fade-in 1.1s ease 7s backwards alternate;
+  -o-animation: fade-in 1.1s ease 7s backwards alternate;
+  animation: fade-in 1.1s ease 7s backwards alternate;
+}
+.section04.go .page4-tip {
+  -webkit-animation: left-in2 1.1s ease 1.1s forwards;
+  -o-animation: left-in2 1.1s ease 1.1s forwards;
+  animation: left-in2 1.1s ease 1.1s forwards;
+}
+.section04.go .page4-point-btn1 .btn-text,
+.section04.go .page4-point-btn2 .btn-text,
+.section04.go .page4-point-btn3 .btn-text,
+.section04.go .page4-point-btn4 .btn-text,
+.section04.go .page4-point-btn5 .btn-text,
+.section04.go .page4-point-btn6 .btn-text,
+.section04.go .page4-point-btn7 .btn-text {
+  -webkit-animation: fade-in 3s ease 8s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 8s forwards infinite alternate;
+  animation: fade-in 3s ease 8s forwards infinite alternate;
+}
+.section04.go .page4-point-btn1 .point,
+.section04.go .page4-point-btn2 .point,
+.section04.go .page4-point-btn3 .point,
+.section04.go .page4-point-btn4 .point,
+.section04.go .page4-point-btn5 .point,
+.section04.go .page4-point-btn6 .point,
+.section04.go .page4-point-btn7 .point {
+  -webkit-animation: fade-in 3s ease 8s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 8s forwards infinite alternate;
+  animation: fade-in 3s ease 8s forwards infinite alternate;
+}
+/* page4 use end */
+/* page5 use */
+.section05.to .page5-door {
+  -webkit-animation: fade-in-out 10s ease 1s forwards;
+  -o-animation: fade-in-out 10s ease 1s forwards;
+  animation: fade-in-out 10s ease 1s forwards;
+}
+.section05.to .page5-door2 {
+  -webkit-animation: fade-in 1s ease 7s forwards;
+  -o-animation: fade-in 1s ease 7s forwards;
+  animation: fade-in 1s ease 7s forwards;
+}
+.section05.to .page5-kaiguan {
+  -webkit-animation: fade-in 1s ease 1.3s forwards;
+  -o-animation: fade-in 1s ease 1.3s forwards;
+  animation: fade-in 1s ease 1.3s forwards;
+}
+.section05.to .page5-deng {
+  -webkit-animation: fade-in 1s ease 1.6s forwards;
+  -o-animation: fade-in 1s ease 1.6s forwards;
+  animation: fade-in 1s ease 1.6s forwards;
+}
+.section05.to .page5-tv {
+  -webkit-animation: fade-in 1s ease 1.6s forwards;
+  -o-animation: fade-in 1s ease 1.6s forwards;
+  animation: fade-in 1s ease 1.6s forwards;
+}
+.section05.to .page5-shou {
+  -webkit-animation: slideInUp 2s ease 2.2s forwards;
+  -o-animation: slideInUp 2s ease 2.2s forwards;
+  animation: slideInUp 2s ease 2.2s forwards;
+}
+.section05.to .page5-point-btn1 .btn-text,
+.section05.to .page5-point-btn2 .btn-text,
+.section05.to .page5-point-btn3 .btn-text,
+.section05.to .page5-point-btn4 .btn-text {
+  -webkit-animation: fade-in 3s ease 3s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 3s forwards infinite alternate;
+  animation: fade-in 3s ease 3s forwards infinite alternate;
+}
+.section05.to .page5-point-btn1 .point,
+.section05.to .page5-point-btn2 .point,
+.section05.to .page5-point-btn3 .point,
+.section05.to .page5-point-btn4 .point {
+  -webkit-animation: fade-in 3s ease 3s forwards infinite alternate;
+  -o-animation: fade-in 3s ease 3s forwards infinite alternate;
+  animation: fade-in 3s ease 3s forwards infinite alternate;
+}
+.section05.to .page5-shou {
+  -webkit-animation: slideInUp 2s ease 2.2s forwards;
+  -o-animation: slideInUp 2s ease 2.2s forwards;
+  animation: slideInUp 2s ease 2.2s forwards;
+}
+.section05.to .page5-guang1 {
+  -webkit-animation: fade-in-out 0.5s ease 6s forwards;
+  -o-animation: fade-in-out 0.5s ease 6s forwards;
+  animation: fade-in-out 0.5s ease 6s forwards;
+}
+.section05.to .page5-guang2 {
+  -webkit-animation: fade-in-out 0.5s ease 5.5s forwards;
+  -o-animation: fade-in-out 0.5s ease 5.5s forwards;
+  animation: fade-in-out 0.5s ease 5.5s forwards;
+}
+.section05.to .page5-feng {
+  -webkit-animation: fade-in-out 5s ease 6.5s forwards;
+  -o-animation: fade-in-out 5s ease 6.5s forwards;
+  animation: fade-in-out 5s ease 6.5s forwards;
+}
+.section05.to .page5-win2 {
+  -webkit-animation: fade-in-out 5s ease 7s forwards;
+  -o-animation: fade-in-out 5s ease 7s forwards;
+  animation: fade-in-out 5s ease 7s forwards;
+}
+.section05.to .page5-win1 {
+  -webkit-animation: fade-in-out 5s ease 7.3s forwards;
+  -o-animation: fade-in-out 5s ease 7.3s forwards;
+  animation: fade-in-out 5s ease 7.3s forwards;
+}
+.section05.to .page5-dask {
+  -webkit-animation: fade-in-out1 10s ease 10s forwards;
+  -o-animation: fade-in-out1 10s ease 10s forwards;
+  animation: fade-in-out1 10s ease 10s forwards;
+}
+.section05.to .left-in5 {
+  -webkit-animation: left-in2 1s ease 0.5s forwards;
+  -o-animation: left-in2 1s ease 0.5s forwards;
+  animation: left-in2 1s ease 0.5s forwards;
+}
+/* page5 use end */
+/* use animate */

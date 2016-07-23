@@ -1,0 +1,153 @@
+.building {
+    width: 480px;
+    height: 209px;
+    margin-left: -242px;
+    bottom: 8%;
+}
+.building .line-base,
+.building .line-base1,
+.building .line-base2 {
+    width: 0;
+    height: 243px;
+    position: absolute;
+}
+.building .line-base {
+    background: url(../img/line-base.png) no-repeat left;
+    left: 24px;
+    top: 8px;
+    z-index: 96;
+    background-size: 458.8px 135px;
+}
+.building .line-base1 {
+    background: url(../img/line-base1.png) no-repeat right;
+    right: -3px;
+    top: 8px;
+    z-index: 97;
+    background-size: 458.8px 135px;
+}
+.building .line-base2 {
+    background: url(../img/line-base2.png) no-repeat left;
+    background-size: 458.8px 135px;
+    left: 24px;
+    top: 8px;
+    z-index: 98;
+}
+@-webkit-keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 934.8px;
+    }
+}
+@keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 934.8px;
+    }
+}
+@-webkit-keyframes down1 {
+    from {
+        top: -72px;
+    }
+    to {
+        top: 15px;
+    }
+}
+@keyframes down1 {
+    from {
+        top: -72px;
+    }
+    to {
+        top: 15px;
+    }
+}
+@-webkit-keyframes down2 {
+    from {
+        top: -72px;
+    }
+    to {
+        top: 40px;
+    }
+}
+@keyframes down2 {
+    from {
+        top: -72px;
+    }
+    to {
+        top: 40px;
+    }
+}
+@-webkit-keyframes left-in {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 15px;
+    }
+}
+@keyframes left-in {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 15px;
+    }
+}
+.line-base {
+    -webkit-animation: light-in 3s ease-out 8s forwards;
+    -o-animation: light-in 3s ease-out 8s forwards;
+    animation: light-in 3s ease-out 8s forwards;
+}
+.line-base1 {
+    -webkit-animation: light-in 3s ease-in 11s forwards;
+    -o-animation: light-in 3s ease-in 11s forwards;
+    animation: light-in 3s ease-in 11s forwards;
+}
+.line-base2 {
+    -webkit-animation: light-in 5s ease-in 14s forwards;
+    -o-animation: light-in 5s ease-in 14s forwards;
+    animation: light-in 5s ease-in 14s forwards;
+}
+.building .tower {
+    top: -15%;
+}
+.point-btn .btn-text {
+    font: normal 12px/20px "SimHei";
+}
+.point {
+    width: 12px;
+    height: 12px;
+}
+.page-title1 {
+    top: 15px;
+    margin-left: -126.5px;
+}
+.page-title2 {
+    top: 40px;
+    margin-left: -120px;
+}
+.page-title {
+    font: normal 25px/25px "SimHei";
+}
+.page-title1 {
+    -webkit-animation: down1 1s ease;
+    -o-animation: down1 1s ease;
+    animation: down1 1s ease;
+}
+.page-title2 {
+    -webkit-animation: down2 1s ease-out;
+    -o-animation: down2 1s ease-out;
+    animation: down2 1s ease-out;
+}
+.tip-title {
+    font: lighter 15px/44px "SimHei";
+    top: 23%;
+    width: 100px;
+}
+.tip-title-bg {
+    width: 100px;
+    top: 23%;
+}

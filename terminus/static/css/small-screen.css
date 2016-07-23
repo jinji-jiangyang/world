@@ -1,0 +1,65 @@
+.building {
+    width: 720px;
+    height: 299px;
+    margin-left: -362px;
+    bottom: 8%;
+}
+.building .line-base,
+.building .line-base1,
+.building .line-base2 {
+    width: 0;
+    height: 243px;
+    position: absolute;
+}
+.building .line-base {
+    background: url(../img/line-base.png) no-repeat left;
+    left: 47px;
+    top: 61px;
+    z-index: 96;
+    background-size: 668.8px 190px;
+}
+.building .line-base1 {
+    background: url(../img/line-base1.png) no-repeat right;
+    right: 5px;
+    top: 61px;
+    z-index: 97;
+    background-size: 668.8px 190px;
+}
+.building .line-base2 {
+    background: url(../img/line-base2.png) no-repeat left;
+    background-size: 668.8px 190px;
+    left: 47px;
+    top: 61px;
+    z-index: 98;
+}
+@-webkit-keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 934.8px;
+    }
+}
+@keyframes light-in {
+    from {
+        width: 0;
+    }
+    to {
+        width: 934.8px;
+    }
+}
+.line-base {
+    -webkit-animation: light-in 3s ease-out 8s forwards;
+    -o-animation: light-in 3s ease-out 8s forwards;
+    animation: light-in 3s ease-out 8s forwards;
+}
+.line-base1 {
+    -webkit-animation: light-in 3s ease-in 11s forwards;
+    -o-animation: light-in 3s ease-in 11s forwards;
+    animation: light-in 3s ease-in 11s forwards;
+}
+.line-base2 {
+    -webkit-animation: light-in 5s ease-in 14s forwards;
+    -o-animation: light-in 5s ease-in 14s forwards;
+    animation: light-in 5s ease-in 14s forwards;
+}
